@@ -1,15 +1,17 @@
 {
-  "name": "ngx-mat-carousel",
+  "name": "@martian1431/ngx-mat-carousel",
   "description": "Carousel component for Angular using Material Design.",
   "version": "0.15.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ralftar/ng-mat-carousel.git"
+    "url": "git+https://github.com/ralftar/ng-mat-carousel.git"
   },
   "author": "martian1431",
   "license": "MIT",
   "homepage": "https://github.com/ralftar/ng-mat-carousel",
-  "bugs": "https://github.com/ralftar/ng-mat-carousel/issues",
+  "bugs": {
+    "url": "https://github.com/ralftar/ng-mat-carousel/issues"
+  },
   "keywords": [
     "angular",
     "material",
@@ -29,5 +31,9 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "ng test"
   }
 }
